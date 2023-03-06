@@ -145,6 +145,53 @@
 }
 
 //banner
+.section.section.banner.pt-0 {
+  background-image: linear-gradient(rgba(0,1,12,.75),rgba(0,1,12,.75)),url(/images/codesk-main-banner.jpg);
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .col-10 {
+    text-align: center;
+  }
+
+  .col-10 img {
+      -webkit-animation: spin 15s linear infinite;
+      animation: spin 15s linear infinite;
+      display: inline-block;
+  }
+
+  @-webkit-keyframes spin {
+      0% {
+          transform: rotate(0deg);
+          transform-origin: 100 100
+      }
+
+      to {
+          transform: rotate(1turn);
+          transform-origin: 100 100
+      }
+  }
+
+  @keyframes spin {
+      0% {
+          transform: rotate(0deg);
+          transform-origin: 100 100
+      }
+
+      to {
+          transform: rotate(1turn);
+          transform-origin: 100 100
+      }
+  }
+
+  h1.mb-8.banner-title.opacity-0 {
+      color: #fff;
+  }
+}
+
+
+
 .banner {
   .bg-theme {
     @apply h-[calc(50%_+_160px)];
@@ -186,6 +233,35 @@
 }
 
 //feature-card
+.feature.animate img {
+  -webkit-animation: spin 15s linear infinite;
+  animation: spin 15s linear infinite;
+  display: inline-block;
+}
+
+@-webkit-keyframes spin {
+  0% {
+      transform: rotate(0deg);
+      transform-origin: 100 100
+  }
+
+  to {
+      transform: rotate(1turn);
+      transform-origin: 100 100
+  }
+}
+
+@keyframes spin {
+  0% {
+      transform: rotate(0deg);
+      transform-origin: 100 100
+  }
+
+  to {
+      transform: rotate(1turn);
+      transform-origin: 100 100
+  }
+}
 .feature-card {
   &-icon {
     @apply relative  overflow-hidden;

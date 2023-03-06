@@ -26,7 +26,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="animate mt-8 md:col-6 lg:col-3 lg:mt-0">
-            <h3 className="h5">Quick Links</h3>
+            
             {/* footer menu */}
             <ul className="mt-5 leading-10">
               {menu.footer.map((menu) => (

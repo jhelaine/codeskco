@@ -1,10 +1,10 @@
 {
   "site": {
-    "title": "Andromeda Light Nextjs",
+    "title": "Codesk",
     "base_url": "/",
     "favicon": "/images/favicon.png",
-    "logo": "/images/logo.svg",
-    "logo_width": "240",
+    "logo": "/images/logo-codesk.png",
+    "logo_width": "180",
     "logo_height": "34",
     "logo_text": "Andromeda"
   },
@@ -18,20 +18,20 @@
   "params": {
     "tag_manager_id": "",
     "contact_form_action": "#",
-    "footer_content": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
-    "copyright": "Designed & Developed By [Themefisher](https:www.themefisher.com)"
+    "footer_content": "We harness the power of the most powerful e-commerce frameworks to launch your website with ease",
+    "copyright": "© 2022, CODESK.CA"
   },
 
   "contact_info": {
-    "phone": "+887887998",
-    "email": "info@andromeda.io",
-    "location": "2118 Thornridge Cir. Syracuse, Connecticut 35624"
+    "phone": "+11111111",
+    "email": "info@codeskco",
+    "location": "Alberta Canada"
   },
 
   "nav_button": {
     "enable": true,
-    "label": "Download Now",
-    "link": "https://themefisher.com/products/andromeda-light-nextjs"
+    "label": "Book a Demo",
+    "link": "/contact"
   },
 
   "metadata": {
@@ -42,11 +42,11 @@
 
   "call_to_action": {
     "enable": true,
-    "title": "Get Andromeda Now",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas </br> Werat viverra id et aliquet. vulputate egestas sollicitudin.",
+    "title": "Contact Us Now",
+    "content": "Join our extensive network of creatives and entrepreneurs and experience the power of CO Desk innovation and support.",
     "button": {
-      "label": "Download The Theme",
-      "link": "https://themefisher.com/products/andromeda-light-nextjs"
+      "label": "Connect With Us",
+      "link": "/contact"
     }
   },
 

@@ -1,47 +1,34 @@
 ---
 banner:
-  title: "Andromeda is the most intuitive </br> way to prototype Designs"
-  image: /images/banner-app.png
+  title: "Give your customers the ultimate reason to buy, follow, and subscribe"
+  image: /images/codesk-banner.png
   link:
-    label: Get Premium Version
-    href: "#"
+    label: Contact us for a demo
+    href: "/contact"
 
 ##brands
 brands:
   - /images/brands/01-colored.png
-  - /images/brands/02-colored.png
-  - /images/brands/03-colored.png
-  - /images/brands/04-colored.png
-  - /images/brands/05-colored.png
-  - /images/brands/06-colored.png
-  - /images/brands/04-colored.png
-  - /images/brands/05-colored.png
-  - /images/brands/06-colored.png
+  - /images/brands/shopify-partner-logo.png 
+  - /images/brands/Adobe-Certified.png
+
 
 #features
 features:
-  sub_title: SPECIAL FEATURES
-  title: Elements To </br> Get You Started
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas </br> Werat viverra id et aliquet. vulputate egestas sollicitudin.
+  sub_title: 
+  title: Build your foundation  </br> for success
+  description: Accelerate growth and amplify your impact
+
   list:
-    - icon: 'lock' # feather icon: https://feathericons.com/
-      title: Updated Security
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
+    - icon: 'user-check' # feather icon: https://feathericons.com/
+      title: For Individuals
+      content: Launch your blog and ecommerce site custom fit to your need.
     - icon: 'wind'
-      title: Magnetic Turning
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
+      title: For SME
+      content: Simple and intuitive automation to help scale your small to mid-sized business
     - icon: 'shield'
-      title: Secured & up-to-date
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
-    - icon: 'link'
-      title: Instant Link Sharing
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
-    - icon: 'lock'
-      title: Updated Security
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
-    - icon: 'wind'
-      title: Magnetic Turning
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
+      title: For big brands
+      content: UX-optimized platform to help bigger brands accelerate growth and boost profits
 
 #intro
 intro:
@@ -54,54 +41,34 @@ intro:
 #speciality
 speciality:
   primary:
-    title: You Will Not Miss Your All Misunderstandings
-    subtitle: PRIMARY SPECIALITY
-    description: Protect your design vision and leave nothing up to interpretation with interaction recipes. Quickly share and access all your team members interactions by using libraries, ensuring consistency throughout the.
-    image: /images/features-01.png
+    title: Our features solve problems and deliver smiles
+    subtitle: 
+    description: Because the customer journey happens on the frontend, you need a fast, mobile-first presentation layer to drive conversion and revenue.
+    image: /images/codesk-feature-01.png
   secondary:
-    title: Say Hello To No-Code The Advance Creation
-    subtitle: SECONDARY SPECIALITY
-    description: From the simplest of interactions to those that use Excel-gradeing formulas, ProtoPie can handle them all. Make mind-blowing of New interactions everyday without ever having to write any new code.
-    image: /images/features-02.png
+    title: Key features that will transform your online store
+    subtitle: 
+    description: We harness the power of the most powerful e-commerce frameworks to launch your website with ease using Magento and Shopify.
+    image: /images/codesk-feature-02.png
 
 
 #Testimonial
 testimonial:
-  title: OUR TESTIMONIALS
-  subtitle: Don’t Take Our Word For It
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas </br> Werat viverra id et aliquet. vulputate egestas sollicitudin.
+  title: Message from our CEO
+  subtitle: Your business is our top priority
+  description: 
   list:
-    - author: David Cameron
-      avatar: /images/user-img/01.jpg
-      profession: CEO, Nexuspay
-      content: Lorem ipsum dolor amet, conseetur adipiscing elit. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs pellentesque vitae dolor
-    - author: David Cameron
-      avatar: /images/user-img/02.jpg
-      profession: CEO, Nexuspay
-      content: Lorem ipsum dolor amet, conseetur adipiscing elit. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs pellentesque vitae dolor
-    - author: David Cameron
-      avatar: /images/user-img/03.jpg
-      profession: CEO, Nexuspay
-      content: Lorem ipsum dolor amet, conseetur adipiscing elit. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs pellentesque vitae dolor
-    - author: David Cameron
-      avatar: /images/user-img/04.png
-      profession: CEO, Nexuspay
-      content: Lorem ipsum dolor amet, conseetur adipiscing elit. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs pellentesque vitae dolor
-    - author: David Cameron
-      avatar: /images/user-img/05.jpg
-      profession: CEO, Nexuspay
-      content: Lorem ipsum dolor amet, conseetur adipiscing elit. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs pellentesque vitae dolor
-    - author: David Cameron
-      avatar: /images/user-img/06.jpg
-      profession: CEO, Nexuspay
-      content: Lorem ipsum dolor amet, conseetur adipiscing elit. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs pellentesque vitae dolor
-    - author: David Cameron
-      avatar: /images/user-img/07.jpg
-      profession: CEO, Nexuspay
-      content: Lorem ipsum dolor amet, conseetur adipiscing elit. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs pellentesque vitae dolor
-    - author: David Cameron
-      avatar: /images/user-img/08.jpg
-      profession: CEO, Nexuspay
-      content: Lorem ipsum dolor amet, conseetur adipiscing elit. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs pellentesque vitae dolor
+    - author: Jhaira
+      avatar: /images/codesk-ceo.png
+      profession: CEO, Codesk
+      content: We all have innate strength. Let's collaborate to turn your ideas into sales and create long-term digital growth. 
+    - author: Jhaira
+      avatar: /images/codesk-ceo.png
+      profession: CEO, Codesk
+      content: We are a highly curated team of the most experienced e-commerce specialists. 
+    - author: Jhaira
+      avatar: /images/codesk-ceo.png
+      profession: CEO, Codesk
+      content: We are on a mission to assist clients in leveraging the power of e-commerce to increase their success.
 
 ---

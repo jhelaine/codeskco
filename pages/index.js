@@ -102,7 +102,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
         <div className="container-xl">
           <div className="relative">
             <div className="bg-theme banner-bg col-12 absolute top-0 left-0">
-              <Circle
+              {/* <Circle
                 className="circle left-[10%] top-12"
                 width={32}
                 height={32}
@@ -156,7 +156,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
                 className="circle right-[3%] bottom-[20%]"
                 width={65}
                 height={65}
-              />
+              /> */}
             </div>
             <div className="row overflow-hidden rounded-2xl">
               <div className="col-12">
@@ -177,8 +177,8 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
                     <ImageFallback
                       className="banner-img opacity-0"
                       src={banner.image}
-                      width={1170}
-                      height={666}
+                      width={500}
+                      height={500}
                       priority={true}
                       alt=""
                     />
@@ -274,77 +274,6 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
         </div>
       </section>
 
-      {/* Short Into */}
-      <section className="section pt-0">
-        <div className="container-xl">
-          <div className="relative px-4 py-[70px]">
-            <div className="text-center">
-              <div className="animate">
-                <p>{intro.subtitle}</p>
-                {markdownify(intro.title, "h2", "mt-4 section-title")}
-                {markdownify(intro.description, "p", "mt-10")}
-              </div>
-              <div className="mx-auto mt-10 h-full max-h-[394px] w-full max-w-[716px]">
-                <VideoPopup id={intro.video_id} thumbnail={intro.thumbnail} />
-              </div>
-            </div>
-            <div className="bg-theme absolute top-0 left-0 w-full">
-              <Circle
-                className="left-[10%] top-12"
-                width={32}
-                height={32}
-                fill={false}
-              />
-              <Circle className="left-[3%] top-[30%]" width={85} height={85} />
-              <Circle
-                className="left-[22%] bottom-[52%]"
-                width={20}
-                height={20}
-              />
-              <Circle
-                className="left-[15%] bottom-[35%]"
-                width={47}
-                height={47}
-                fill={false}
-              />
-              <Circle
-                className="left-[6%] bottom-[6%]"
-                width={62}
-                height={62}
-                fill={false}
-              />
-              <Circle
-                className="right-[12%] top-[12%]"
-                width={20}
-                height={20}
-              />
-              <Circle
-                className="right-[2%] top-[30%]"
-                width={73}
-                height={73}
-                fill={false}
-              />
-              <Circle
-                className="right-[19%] top-[50%]"
-                width={37}
-                height={37}
-                fill={false}
-              />
-              <Circle
-                className="right-[33%] top-[52%]"
-                width={20}
-                height={20}
-              />
-              <Circle
-                className="right-[5%] bottom-[18%]"
-                width={65}
-                height={65}
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Special Features */}
       <section className="section">
         <div className="container">
@@ -353,8 +282,8 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
               <ImageFallback
                 className="mx-auto"
                 src={speciality.primary.image}
-                width={575}
-                height={511}
+                width={500}
+                height={500}
                 alt="primary speciality"
               />
             </div>
@@ -369,12 +298,12 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
             </div>
           </div>
           <div className="row items-center">
-            <div className="animate lg:col-6">
+            <div className="feature animate lg:col-6">
               <ImageFallback
                 className="mx-auto"
                 src={speciality.secondary.image}
-                width={575}
-                height={511}
+                width={500}
+                height={500}
                 alt="secondary speciality"
               />
             </div>
@@ -403,12 +332,12 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
             <div className="xl:col-11">
               <div className="row items-center justify-center">
                 <div className="hidden lg:col-3 xl:col-4 lg:block">
-                  <ImageFallback
+                  {/* <ImageFallback
                     src="/images/testimonials-01.png"
                     width={455}
                     height={522}
                     alt="testimonials"
-                  />
+                  /> */}
                 </div>
                 <div className="md:col-7 lg:col-6 xl:col-4">
                   {
@@ -464,12 +393,12 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
                   </div>
                 </div>
                 <div className="hidden lg:col-3 xl:col-4 lg:block">
-                  <ImageFallback
+                  {/* <ImageFallback
                     src="/images/testimonials-02.png"
                     width={455}
                     height={522}
                     alt="testimonials"
-                  />
+                  /> */}
                 </div>
               </div>
             </div>
