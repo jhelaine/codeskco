@@ -25,15 +25,15 @@ export default async function handler(req, res) {
         // },
         // requireTLS:true,
         auth: {
-          user: 'info@codeskca.com',
-          pass: '9jb#2nrrFjiE500',
+          user: process.env.SMTP_USER,
+          pass: process.env.SMTP_PASS,
         },
         debug: true
       });
 
     // Create the email message
     const mailOptions = {
-      from: 'info@codeskca.com',
+      from: process.env.SMTP_USER,
       to: 'codesk.ca@gmail.com',
       cc: 'jhelainekimberly.deleon2015@gmail.com',
       subject: 'New Contact Form Submission Subject: ' + subject,
